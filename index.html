@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recuperar Conta</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Material UI CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://unpkg.com/@mui/material@5.0.0-beta.5/dist/material.min.js"></script>
+</head>
+<body>
+  <main class="recuperar-conta">
+    <section class="container">
+      <!-- Header branding -->
+      <header class="header">
+        <img class="logo" alt="Logo" src="captura-de-tela-2025-04-26-193317-1.png" />
+        <img class="icon" alt="Security icon" src="641693-1.png" />
+        <span class="secure-text">AMBIENTE 100% SEGURO</span>
+      </header>
+
+      <!-- Login form container -->
+      <section class="login-box">
+        <img class="logo-icon" alt="Logo icon" src="images-1.png" />
+
+        <h1 class="login-title">ENTRAR</h1>
+        <p class="login-subtitle">ENTRE COM SEU EMAIL PARA CONTINUAR</p>
+
+        <!-- Email input -->
+        <div class="input-wrapper">
+          <label for="email" class="input-label">E-mail</label>
+          <input id="email" type="email" class="input-field" />
+        </div>
+
+        <!-- Password input -->
+        <div class="input-wrapper">
+          <label for="password" class="input-label">Senha</label>
+          <input id="password" type="password" class="input-field" />
+        </div>
+
+        <!-- Login button -->
+        <button class="login-button" onclick="handleLogin()">ENTRAR</button>
+
+        <!-- Social login buttons -->
+        <div class="social-login">
+          <button class="social-button facebook">
+            <img src="20837-1.png" alt="Facebook icon" class="social-icon" />
+            Entrar com Facebook
+          </button>
+          <button class="social-button google">
+            <img src="300221-1.png" alt="Google icon" class="social-icon" />
+            Continuar com Google
+          </button>
+        </div>
+
+        <!-- Divider line -->
+        <img class="divider" alt="Divider" src="line-3.svg" />
+
+        <!-- Forgot password -->
+        <a href="#" class="forgot-password">ESQUECEU SUA SENHA?</a>
+
+        <!-- Recovery email input -->
+        <div class="input-wrapper">
+          <label for="recovery-email" class="input-label">E-mail para recuperação de senha</label>
+          <input id="recovery-email" type="email" class="input-field" />
+        </div>
+
+        <!-- Send button -->
+        <button class="send-button" onclick="handleRecovery()">ENVIAR</button>
+      </section>
+
+      <!-- Registration prompt -->
+      <aside class="register-box">
 
